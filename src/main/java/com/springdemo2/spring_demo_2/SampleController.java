@@ -77,7 +77,7 @@ public class SampleController {
     
     // Assignment 3.9
     @GetMapping("/products/{productid}")
-    public String getPdtID(@PathVariable int productid) {
+    public String getPdtName(@PathVariable int productid) {
         if (productid == 1) {
             return "This is detail for ID: " + productid + "\nProduct Name: Apple";
         } else if (productid == 2) {

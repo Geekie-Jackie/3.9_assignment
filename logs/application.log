@@ -2126,3 +2126,27 @@ Identify and stop the process that's listening on port 8081 or configure this ap
 2023-08-26 08:04:26.458  INFO 65827 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
 2023-08-26 08:04:26.461  INFO 65827 --- [restartedMain] c.s.s.SpringDemo2Application             : Started SpringDemo2Application in 0.319 seconds (JVM running for 33290.286)
 2023-08-26 08:04:26.462  INFO 65827 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-26 08:18:18.185  INFO 65827 --- [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat-21].[localhost].[/]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-26 08:18:18.185  INFO 65827 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-26 08:18:18.186  INFO 65827 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-26 08:22:32.766  INFO 65827 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-26 08:22:32.768  INFO 65827 --- [Thread-756] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-26 08:22:32.768  INFO 65827 --- [Thread-756] o.a.c.c.C.[Tomcat-21].[localhost].[/]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-26 08:22:32.820  INFO 65827 --- [restartedMain] c.s.s.SpringDemo2Application             : 🟢 Starting MySpringbootProjectApplication
+2023-08-26 08:22:32.820  WARN 65827 --- [restartedMain] c.s.s.SpringDemo2Application             : 🟠 Test Warning
+2023-08-26 08:22:32.820 ERROR 65827 --- [restartedMain] c.s.s.SpringDemo2Application             : 🔴 Error Warning
+2023-08-26 08:22:32.843  INFO 65827 --- [restartedMain] c.s.s.SpringDemo2Application             : Starting SpringDemo2Application using Java 17.0.8 on Starlight with PID 65827 (/root/3.9-maven-revision/spring_demo_2/target/classes started by root in /root/3.9-maven-revision/spring_demo_2)
+2023-08-26 08:22:32.844  INFO 65827 --- [restartedMain] c.s.s.SpringDemo2Application             : No active profile set, falling back to 1 default profile: "default"
+2023-08-26 08:22:32.961  INFO 65827 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-08-26 08:22:32.962  INFO 65827 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-26 08:22:32.962  INFO 65827 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-08-26 08:22:33.109  INFO 65827 --- [restartedMain] o.a.c.c.C.[Tomcat-21].[localhost].[/]    : Initializing Spring embedded WebApplicationContext
+2023-08-26 08:22:33.109  INFO 65827 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 258 ms
+2023-08-26 08:22:33.153  INFO 65827 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-08-26 08:22:33.168  INFO 65827 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-26 08:22:33.173  INFO 65827 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-26 08:22:33.176  INFO 65827 --- [restartedMain] c.s.s.SpringDemo2Application             : Started SpringDemo2Application in 0.354 seconds (JVM running for 34377.001)
+2023-08-26 08:22:33.177  INFO 65827 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-26 08:22:42.260  INFO 65827 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat-21].[localhost].[/]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-26 08:22:42.261  INFO 65827 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-26 08:22:42.261  INFO 65827 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
